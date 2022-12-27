@@ -1,0 +1,265 @@
+*{
+    color: white;
+}
+body{
+    background-image: url(./img/LiyueHorbor.jpg);
+    background-size: cover;
+}
+.font-svg{
+    font-size: 18px;
+}
+.container{
+    max-width: 960px;
+    height: 800px;
+    margin: auto;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.menu{
+    position: relative;
+}
+.active{
+    background-color: rgb(70, 69, 69);
+    padding: 0px;
+    border-radius: 10px;
+}
+
+/* left-side */
+
+.profile{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.profile-img img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px solid cyan;
+}
+.profile-info{
+    margin-left: 20px;
+}
+.profile-info span{
+    font-size: 25px;
+}
+.ipt{
+     /* width: 100%; */
+    margin-top: 10px;
+    color: tomato;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px cyan;
+    outline: none;
+    text-align: center;
+    width: 200px;
+    height: 25px; 
+}
+.search-input{
+    margin-top: 10px;
+}
+.search-input input{
+    width: 98%;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: black;
+    border-bottom: 2px solid gray;
+}
+.category{
+    border-bottom: 2px solid gray;
+    padding: 10px;
+}
+.category li{
+    list-style-type: none;
+    padding: 0px 0px 8px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.category li:hover{
+    background-color: gray;
+    border-radius: 10px;
+}
+.category span{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.category span:hover{
+    color: orange;
+    transform: scale(1.1);
+}
+.category i {
+    font-size: 20px;
+}
+.profile-bottom{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.profile-bottom span{
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 19px;
+}
+.profile-bottom span:hover,.profile-bottom i:hover{
+    color: orange;
+}
+
+/* left-side */
+
+
+/* Right-side */
+
+.main{
+    background-color: #191b1c;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+.main .icon{
+    font-size: 25px;
+}
+.icon span{
+    font-weight: bold;
+    padding-left: 15px;
+}
+.to-do{
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.to-do input{
+    width: 550px;
+    color: black;
+    height: 25px;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.to-do button{
+    height: 35px;
+    background-color: tomato;
+    width: 60px;
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.to-do button:hover{
+    color: gray;
+}
+.border-left{
+    margin-top: 70px;
+    width: 90%;
+    margin-left: 20px;
+}
+.border-left .icon{
+    margin-left: 35px;
+}
+.to-do-list{
+    margin-top: 35px;
+}
+.to-do-list ul{
+    overflow: auto;
+    max-height: 500px;
+}
+.to-do-list li{
+    font-size: 25px;
+    list-style-type: none;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px;
+    box-shadow: 0 0 10px 0 cyan;
+}
+.to-do-list li i:hover{
+    color: tomato;
+    cursor: pointer;
+}
+.to-do-list span{
+    padding-left: 10px;
+}
+.alltask{
+    display: flex;
+    justify-content: space-between;
+}
+.alltask i{
+    color: white;
+    font-size: 19px;
+}
+.alltask .chkbox label{
+    margin-left: 27px;
+    font-size: 18px;
+    color: gray;
+}
+
+.main-bottom{
+    position: absolute;
+    bottom: 1%;
+    left: 3%;
+}
+.ipt-task{
+    width: 200px;
+    background-color: gray;
+    color: white;
+    height: 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 5px;
+    outline: none;
+    border: 2px solid orange;
+}
+
+.tsk-svg{
+    font-size: 12px;
+}
+.select{
+    background-color: #191b1c;
+    color: white;
+}
+.select-class{
+    display: none;
+}
+
+.drop-down{
+
+    width: 70px;
+    background-color: white;
+}
+.drop-down li, .drop-down i{
+    color: black;
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+    transition: 1.2s;
+}
+.drop-class{
+    display: block;
+}
+.drop-hide{
+    display: none;
+}
+
+.small-img{
+    width: 25px;
+    height: 25px;
+}
+
+.ipt-svg{
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    height: 25px; 
+    margin-left: 40px;
+    color: black;
+}
+.hove{
+    background-color: #000000;
+}

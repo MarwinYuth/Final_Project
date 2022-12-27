@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="menu">  
+
+            <div class="profile">
+
+                <div class="profile-img">
+                    <img src="img/Kazuha.jpg" alt="">
+                </div>
+
+                <div class="profile-info">
+
+                    <span>Yuth Marwin</span>
+                    <br>
+                    <p style="color: gray;">Yuthmarwin@gmail.com</p>
+
+                </div>
+
+            </div>
+
+            <div class="search-input">
+                <input type="text" placeholder="Search" id="search">
+            </div>
+
+            <div class="category"> 
+
+                <ul>
+                    <!-- <li style="background-color: gray;border-radius:10px;padding-left: 1px; margin-bottom: 25px;"><i class="fa-solid fa-list-check"></i><span>All Task</span></li> -->
+                  <!-- <li><i class="fa-solid fa-house"></i><span>sdfdsf</span><span>Home</span></li>
+                <li><i class="fa-solid fa-user"></i><span style="padding-left: 5px;">Personal</span></li>
+                <li><i class="fa-solid fa-school"></i><span>School</span></li> -->
+                </ul>
+
+                <div class="select-main">
+                    <div class="drop-down">
+                        
+                        <!-- <li id="svg"><i class="fa-solid fa-dumpster delete"></i></li>
+                        <li id="svg"><i class="fa-solid fa-dumpster delete"></i></li>
+                        <li id="svg"><i class="fa-solid fa-dumpster delete"></i></li>
+                        <li id="svg"><i class="fa-solid fa-dumpster delete"></i></li>
+                        <li id="svg"><i class="fa-solid fa-dumpster delete"></i></li>                 -->
+                    </div>
+                </div>
+
+                <div class="drop-hide" id="svg-show">
+                    <ul>
+                        <li class="font-svg">Write 'Home' for <i class="fa-solid fa-house"></i></li>
+                        <li class="font-svg">write 'Personal' for <i class="fa-solid fa-user"></i></li>
+                        <li class="font-svg">write 'School' for <i class="fa-solid fa-school"></i></li>
+                        <li>sfg</li>
+                    </ul>
+                </div>
+
+            </div>
+            
+            
+
+            <div class="profile-bottom">
+                <i class="fa-solid fa-plus click-to-drop" style="cursor: pointer;"></i> <span id="add">Add Item</span>
+            </div>
+
+        </div>
+        
+
+        <div class="main">
+
+            <div class="border-left">
+
+                <div class="icon">
+                    <i class="fa-solid fa-house"></i><span id="title">All Task</span>
+                </div>
+                
+                <div class="to-do-list">
+                    <ul>
+                        <!-- <li>
+                            <div class="alltask">
+    
+                                <div class="chkbox">
+                                    <input type="checkbox"><span>Date Movie</span><br>
+                                    <label for="">dsfa</label>
+                                </div>
+    
+                                <div>
+                                    <i class="fa-solid fa-pen-nib"></i> 
+                                    <i class="fa-solid fa-dumpster"></i>
+                                </div>
+                            </div>      
+                            
+                        </li> -->
+                    </ul>
+                    <!-- <li><input type="checkbox"><span>Complete Java Code</span></li>
+                    <li><input type="checkbox"><span>Hello World</span></li>
+                    <li><input type="checkbox"><span>Date Movie</span></li>
+                    <li><input type="checkbox"><span>Complete Java Code</span></li>
+                    <li><input type="checkbox"><span>Hello World</span></li>
+                    <li><input type="checkbox"><span>Date Movie</span></li>
+                    <li><input type="checkbox"><span>Complete Java Code</span></li>
+                    <li><input type="checkbox"><span>Complete Html Code</span></li>
+                    <li><input type="checkbox"><span>Complete C#</span></li>
+                    <li><input type="checkbox"><span>Date Movie</span></li> -->
+                </div>
+
+            </div>
+
+            <div class="main-bottom">
+                <i class="fa-solid fa-plus" style="cursor: pointer;"></i> <span id="taskadd" style="cursor: pointer;">Add Task</span>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script src="javascript.js"></script>
+</body>
+</html>
